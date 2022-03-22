@@ -1,0 +1,99 @@
+\* Optimize_Playing11 *\
+Maximize
+Maximize_Points_based_on_Selection_Popularity: 0.128 Player_Chosen_Akash_Deep
+ + 0.108 Player_Chosen_Aneeshwar_Gautam + 2.448 Player_Chosen_Anuj_Rawat
+ + 0.155 Player_Chosen_Chama_Milind + 1.38 Player_Chosen_David_Willey
+ + 4.675 Player_Chosen_Dinesh_Karthik + 6.37 Player_Chosen_Faf_DuPlessis
+ + 0.616 Player_Chosen_Finn_Allen + 9.57 Player_Chosen_Glenn_Maxwell
+ + 9.46 Player_Chosen_Harshal_Patel + 0.5325 Player_Chosen_Jason_Behrendorff
+ + 6.665 Player_Chosen_Josh_Hazlewood + 0.29 Player_Chosen_Karn_Sharma
+ + 0.108 Player_Chosen_Luvnith_Sisodia + 0.5795 Player_Chosen_Mahipal_Lomror
+ + 6.23 Player_Chosen_Mohammed_Siraj + 2.064 Player_Chosen_Shahbaz_Ahmed
+ + 0.68 Player_Chosen_Sherfane_Rutherford
+ + 0.4425 Player_Chosen_Siddharth_Kaul
+ + 0.201 Player_Chosen_Suyash_Prabhudessai + 13.95 Player_Chosen_Virat_Kohli
+ + 9.03 Player_Chosen_Wanindu_Hasaranga
+Subject To
+Captain: Player_Chosen_Faf_DuPlessis = 1
+Max_AllRounder: Player_Chosen_David_Willey + Player_Chosen_Glenn_Maxwell
+ + Player_Chosen_Mahipal_Lomror + Player_Chosen_Shahbaz_Ahmed
+ + Player_Chosen_Wanindu_Hasaranga <= 3
+Max_Batsmen: Player_Chosen_Aneeshwar_Gautam + Player_Chosen_Faf_DuPlessis
+ + Player_Chosen_Luvnith_Sisodia + Player_Chosen_Sherfane_Rutherford
+ + Player_Chosen_Virat_Kohli <= 5
+Max_Bowler: Player_Chosen_Akash_Deep + Player_Chosen_Chama_Milind
+ + Player_Chosen_Harshal_Patel + Player_Chosen_Jason_Behrendorff
+ + Player_Chosen_Josh_Hazlewood + Player_Chosen_Karn_Sharma
+ + Player_Chosen_Mohammed_Siraj + Player_Chosen_Siddharth_Kaul
+ + Player_Chosen_Suyash_Prabhudessai <= 5
+Max_Indian_Players: Player_Chosen_Akash_Deep + Player_Chosen_Aneeshwar_Gautam
+ + Player_Chosen_Anuj_Rawat + Player_Chosen_Chama_Milind
+ + Player_Chosen_Dinesh_Karthik + Player_Chosen_Harshal_Patel
+ + Player_Chosen_Karn_Sharma + Player_Chosen_Luvnith_Sisodia
+ + Player_Chosen_Mahipal_Lomror + Player_Chosen_Mohammed_Siraj
+ + Player_Chosen_Shahbaz_Ahmed + Player_Chosen_Siddharth_Kaul
+ + Player_Chosen_Suyash_Prabhudessai + Player_Chosen_Virat_Kohli <= 10
+Max_Overseas_Players: Player_Chosen_David_Willey + Player_Chosen_Faf_DuPlessis
+ + Player_Chosen_Finn_Allen + Player_Chosen_Glenn_Maxwell
+ + Player_Chosen_Jason_Behrendorff + Player_Chosen_Josh_Hazlewood
+ + Player_Chosen_Sherfane_Rutherford + Player_Chosen_Wanindu_Hasaranga <= 4
+Min_AllRounder: Player_Chosen_David_Willey + Player_Chosen_Glenn_Maxwell
+ + Player_Chosen_Mahipal_Lomror + Player_Chosen_Shahbaz_Ahmed
+ + Player_Chosen_Wanindu_Hasaranga >= 2
+Min_Batsmen: Player_Chosen_Aneeshwar_Gautam + Player_Chosen_Faf_DuPlessis
+ + Player_Chosen_Luvnith_Sisodia + Player_Chosen_Sherfane_Rutherford
+ + Player_Chosen_Virat_Kohli >= 3
+Min_Bowler: Player_Chosen_Akash_Deep + Player_Chosen_Chama_Milind
+ + Player_Chosen_Harshal_Patel + Player_Chosen_Jason_Behrendorff
+ + Player_Chosen_Josh_Hazlewood + Player_Chosen_Karn_Sharma
+ + Player_Chosen_Mohammed_Siraj + Player_Chosen_Siddharth_Kaul
+ + Player_Chosen_Suyash_Prabhudessai >= 3
+Min_Indian_Players: Player_Chosen_Akash_Deep + Player_Chosen_Aneeshwar_Gautam
+ + Player_Chosen_Anuj_Rawat + Player_Chosen_Chama_Milind
+ + Player_Chosen_Dinesh_Karthik + Player_Chosen_Harshal_Patel
+ + Player_Chosen_Karn_Sharma + Player_Chosen_Luvnith_Sisodia
+ + Player_Chosen_Mahipal_Lomror + Player_Chosen_Mohammed_Siraj
+ + Player_Chosen_Shahbaz_Ahmed + Player_Chosen_Siddharth_Kaul
+ + Player_Chosen_Suyash_Prabhudessai + Player_Chosen_Virat_Kohli >= 7
+Min_Overseas_Players: Player_Chosen_David_Willey + Player_Chosen_Faf_DuPlessis
+ + Player_Chosen_Finn_Allen + Player_Chosen_Glenn_Maxwell
+ + Player_Chosen_Jason_Behrendorff + Player_Chosen_Josh_Hazlewood
+ + Player_Chosen_Sherfane_Rutherford + Player_Chosen_Wanindu_Hasaranga >= 1
+Min_WicketKeeper: Player_Chosen_Anuj_Rawat + Player_Chosen_Dinesh_Karthik
+ + Player_Chosen_Finn_Allen >= 1
+Playing_11: Player_Chosen_Akash_Deep + Player_Chosen_Aneeshwar_Gautam
+ + Player_Chosen_Anuj_Rawat + Player_Chosen_Chama_Milind
+ + Player_Chosen_David_Willey + Player_Chosen_Dinesh_Karthik
+ + Player_Chosen_Faf_DuPlessis + Player_Chosen_Finn_Allen
+ + Player_Chosen_Glenn_Maxwell + Player_Chosen_Harshal_Patel
+ + Player_Chosen_Jason_Behrendorff + Player_Chosen_Josh_Hazlewood
+ + Player_Chosen_Karn_Sharma + Player_Chosen_Luvnith_Sisodia
+ + Player_Chosen_Mahipal_Lomror + Player_Chosen_Mohammed_Siraj
+ + Player_Chosen_Shahbaz_Ahmed + Player_Chosen_Sherfane_Rutherford
+ + Player_Chosen_Siddharth_Kaul + Player_Chosen_Suyash_Prabhudessai
+ + Player_Chosen_Virat_Kohli + Player_Chosen_Wanindu_Hasaranga = 11
+Vice_Captain: Player_Chosen_Virat_Kohli = 1
+Bounds
+ 0 <= Player_Chosen_Akash_Deep <= 1
+ 0 <= Player_Chosen_Aneeshwar_Gautam <= 1
+ 0 <= Player_Chosen_Anuj_Rawat <= 1
+ 0 <= Player_Chosen_Chama_Milind <= 1
+ 0 <= Player_Chosen_David_Willey <= 1
+ 0 <= Player_Chosen_Dinesh_Karthik <= 1
+ 0 <= Player_Chosen_Faf_DuPlessis <= 1
+ 0 <= Player_Chosen_Finn_Allen <= 1
+ 0 <= Player_Chosen_Glenn_Maxwell <= 1
+ 0 <= Player_Chosen_Harshal_Patel <= 1
+ 0 <= Player_Chosen_Jason_Behrendorff <= 1
+ 0 <= Player_Chosen_Josh_Hazlewood <= 1
+ 0 <= Player_Chosen_Karn_Sharma <= 1
+ 0 <= Player_Chosen_Luvnith_Sisodia <= 1
+ 0 <= Player_Chosen_Mahipal_Lomror <= 1
+ 0 <= Player_Chosen_Mohammed_Siraj <= 1
+ 0 <= Player_Chosen_Shahbaz_Ahmed <= 1
+ 0 <= Player_Chosen_Sherfane_Rutherford <= 1
+ 0 <= Player_Chosen_Siddharth_Kaul <= 1
+ 0 <= Player_Chosen_Suyash_Prabhudessai <= 1
+ 0 <= Player_Chosen_Virat_Kohli <= 1
+ 0 <= Player_Chosen_Wanindu_Hasaranga <= 1
+End
