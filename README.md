@@ -1,9 +1,5 @@
 # LinearOptimization_IPLCricket
 
-### Contributors 
-- Chirag Shivakumar 
-- Rukmini ManojKumar
-
 ### Project Title- Create a Linear Programme to Optimize the Best Playing XI for a Cricket Team (RCB in IPL 2022)
 
 ## Run Server
